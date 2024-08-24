@@ -1,0 +1,61 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.top-text {
+  text-align: center;
+}
+
+.alt-form {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td button {
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+}
+
+.top-text p span {
+  color: blue;
+}
+
+input {
+  outline: none;
+}
+
+.hear-about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.hear-about-us td label {
+  display: block;
+}
+
+.hear-about-us td select {
+  width: 100%;
+  outline: none;
+}

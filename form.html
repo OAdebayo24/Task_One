@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alt School Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <main class="container">
+    <section class="top-text">
+      <h1>Alt school</h1>
+      <p>Already an AltSchooler?<span> Sign in</span></p>
+      <p>Take the next step and apply at AltSchool Africa</p>
+    </section> 
+    <section class="alt-form">
+      <form method="" action="post">
+        <table>
+          <tr>
+            <td><label for="firstname">First Name</label></td>
+            <td><label for="lastname">Last Name</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="firstname" id="firstname"/></td>
+            <td><input type="text" name="lastname" id="lastname"/></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender</label></td>
+            <td><label for="date-of-birth">Date of Birth</label></td>
+          </tr>
+          <tr>
+            <td>
+              <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </td>
+            <td><input type="date" name="date-of-birth" id="date-of-birth"/></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email Address</label></td>
+            <td><label for="phone_number">Phone Number</label></td>
+          </tr>
+          <tr>
+            <td><input type="email" name="email" id="email"/></td>
+            <td><input type="numnber" id="phone_number"></td>
+          </tr>
+          <tr>
+            <td><label for="country">Country</label></td>
+            <td><label for="city">State/City of Residence</label></td>
+          </tr>
+          <tr>
+            <td>
+              <select style="outline: none;">
+                <option value="" disabled selected hidden>Select a country</option>
+                <option value="afghanistan">Afghanistan</option>
+                <option value="albania">Albania</option>
+                <option value="Ethopia">Ethopia</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Bosnia">Bosnia</option>
+                <option value="Hezegovenia">Hezegovenia</option>
+                <option value="Trinidad & Tobbago">Trinidad & Tobbago</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Scotland">Scotland</option>
+                <option value="Wales">Wales</option>
+                <option value="Portugal">PortugalPortugal</option>
+                <option value="Carpe Verde">Carpe Verde</option>
+                <option value="Poland">Poland</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Togo">Togo</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="France">France</option>
+                <option value="England">England</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="USA">USA</option>
+              </select>
+            </td>
+            <td><input type="text" name="city" id="city"/></td>
+          </tr>
+          <tr class="hear-about-us">
+            <td><label for="about_us">How did you hear about us</label></td>
+            <td>
+              <select>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="facebook">Facebook</option>
+                <option value="friend">Friend</option>
+                <option value="whatsapp">Whatsapp</option>
+                <option value="billboard">Bill Board</option>
+                <option value="youtube">Youtube</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td><label for="confirm_password">Confirm Password</label></td>
+          </tr>
+          <tr>
+            <td><input type="password" name="password" id="password"/></td>
+            <td><input type="password" name="confirm_password" id="confirm_password"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button type="submit">Submit</button></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
